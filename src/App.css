@@ -1,0 +1,54 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-input-container {
+  width: 100%;
+  display: flex;
+  padding: 0;
+}
+
+.score-input {
+  width: 200px;
+}
+
+.score-add-button {
+  margin-left: 10px;
+}
+
+.golf-card {
+  height: 400px;
+  border: 1px solid #000000;
+  background-color: #282c34;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  margin-left: 10px;
+  padding: 1rem;
+}
+
+.spinner-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  padding: 0.3rem;
+}
+
+.asyncselect {
+  width: 200px;
+  font-size: medium;
+  color: #282c34;
+  padding: 0;
+}
