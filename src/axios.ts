@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let baseURL: string;
-baseURL = process.env.BASEURL || 'http://localhost:7071/api';
+baseURL = process.env.BASEURL || 'https://vana-backend.azurewebsites.net/api';
 
 let Axios: any = axios;
 const init = () => {
